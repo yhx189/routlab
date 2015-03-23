@@ -418,7 +418,7 @@ void Node::ProcessIncomingRoutingMessage(const RoutingMessage *m)
   	 SendToNeighbors(message);
 	}
 	*/
-	cout << "after processing message,\n" << nodeTable;
+	//cout << "after processing message,\n" << nodeTable;
 }
 
 void Node::TimeOut()
